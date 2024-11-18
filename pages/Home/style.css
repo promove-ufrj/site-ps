@@ -1,0 +1,64 @@
+.home{
+    background-color: #14120F;
+    color: #F2F2F2;
+    font-family: "Readex Pro", serif;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    margin-bottom: 3%;
+}
+
+.navigation{
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.line{
+    border-left: 2px solid #F2F2F2;
+    height: 4vh;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.year{
+    font-size: 5.375rem;
+    font-weight: 700;
+    margin:0 0 5% 0;
+}
+
+.button{
+    font-weight: 700;
+    font-size: 2.25rem;
+    background-color: #75138D;
+    color: #F2F2F2;
+    border-radius: 2.875rem;
+    width: 345px;
+    height: 88px;
+    padding: 20px 40.05px 20.53px 41px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    padding: 0;
+}
+
